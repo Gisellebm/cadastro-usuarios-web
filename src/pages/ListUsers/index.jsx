@@ -1,6 +1,17 @@
+import { Button } from "../../components/Button/styles";
+import TopBackground from "../../components/TopBackground";
 
-export default function ListUsers() {
+function ListUsers() {
     return (
-        <div>ListUsers</div>
+        <div>
+            <TopBackground/>
+
+            <h1>Lista de Usuários</h1>
+
+            <Button type="button">Voltar</Button>
+
+        </div>
     )
 }
+
+export default ListUsers

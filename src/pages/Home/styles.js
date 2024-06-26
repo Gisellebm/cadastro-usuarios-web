@@ -10,23 +10,6 @@ export const Container = styled.div`
     padding: 2rem;
 `
 
-export const TopBackground = styled.div`
-    background: linear-gradient(to right, #fe7e5d, #7f3841);
-    height: 30vh;
-    width: 90vw;
-    max-width: 80rem;
-    border-radius: 3rem;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    img {
-        max-height: 100%;
-        max-width: 100%;
-    }
-`
-
 export const Form = styled.form`
     display: flex;
     flex-direction: column;
@@ -64,23 +47,4 @@ export const Input = styled.input`
     background-color: #fff;
     outline: none;
     width: 100%;
-`
-
-export const Button = styled.button`
-    border: none;
-    background: linear-gradient(180deg, #fe7e5d 0%, #ff6378 100%);
-    font-size: 1.6rem;
-    color: #fff;
-    padding: 1.6rem 3.2rem;
-    width: fit-content;
-    border-radius: 3rem;
-    cursor: pointer;
-
-    &:hover {
-        opacity: 0.8;
-    }
-
-    &:active {
-        opacity: 0.5;
-    }
 `
